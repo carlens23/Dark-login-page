@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login page</title>
+    <title>Dark (skull)</title>
+    <link rel="shortcut icon" href="skull.ico" type="image/x-icon">
     <link rel="stylesheet" href="../Dark-login-page/estilos/style.css">
 </head>
 <body>
@@ -18,10 +19,10 @@
                 <form action="cadastro.php">
 
                     <label for="usuario">Usuário</label>
-                    <input type="text" name="usuario" placeholder="User"><br>
+                    <input type="text" name="usuario" placeholder="Username" required minlength="8" maxlength="16"><br>
 
                     <label for="senha">senha</label>
-                    <input type="password" name="senha" id="senha" placeholder="Password">
+                    <input type="password" name="senha" id="senha" placeholder="Password" required minlength="8" maxlength="15">
                 </form>
                 <input type="button" class="botao" value="Entrar">
             </div>
